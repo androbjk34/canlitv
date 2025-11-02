@@ -1,0 +1,29 @@
+{
+  "name": "canli-tv-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Capacitor ile paketlenmiş IPTV Oynatıcı",
+  "scripts": {
+    "build": "vite build",
+    "sync:android": "npm run build && npx cap sync android",
+    "open:android": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/app": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/status-bar": "^6.0.0",
+    "@google/genai": "^1.27.0",
+    "hls.js": "^1.5.13",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/cli": "^6.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.4.21"
+  }
+}
